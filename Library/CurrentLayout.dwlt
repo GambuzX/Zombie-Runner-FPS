@@ -327,19 +327,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs
+    - Assets/Standard Assets/Environment/Water/Water/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs
+  - Assets/Standard Assets/Environment/Water/Water/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\mg_me\Desktop\repos\Unity\Zombie-Runner-FPS
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 082a0000
-    m_LastClickedID: 10760
-    m_ExpandedIDs: 00000000d22700003229000074290000662b000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 117}
+    m_SelectedIDs: a82b0000
+    m_LastClickedID: 11176
+    m_ExpandedIDs: 00000000d22700007c2800003229000074290000a6290000662b0000a42b000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -394,7 +394,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -487,23 +487,23 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 342c0000
     m_LastClickedID: 11316
-    m_ExpandedIDs: 9efbffff00000000
+    m_ExpandedIDs: 6edeffff90e6ffff9efbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Water
+      m_OriginalName: Water
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: -6512
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 4}
     m_SearchString: 
   m_ExpandedScenes:
   - Game
@@ -538,14 +538,14 @@ MonoBehaviour:
     height: 445
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 0
+  lastFramingTime: 571.9893876791907
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 180.78133, y: 7.954836, z: 462.98932}
+    m_Target: {x: 753.82416, y: 162.7588, z: 120.61936}
     speed: 2
-    m_Value: {x: 180.78133, y: 7.954836, z: 462.98932}
+    m_Value: {x: 753.82416, y: 162.7588, z: 120.61936}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -569,13 +569,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.005283807, y: 0.7373603, z: -0.0057681333, w: -0.6754544}
+    m_Target: {x: -0.3701104, y: 0.055108473, z: -0.022000724, w: -0.92709076}
     speed: 2
-    m_Value: {x: -0.005283807, y: 0.7373603, z: -0.0057681333, w: -0.6754544}
+    m_Value: {x: -0.3701104, y: 0.055108473, z: -0.022000724, w: -0.92709076}
   m_Size:
-    m_Target: 336.12988
+    m_Target: 99.45667
     speed: 2
-    m_Value: 336.12988
+    m_Value: 99.45667
   m_Ortho:
     m_Target: 0
     speed: 2
