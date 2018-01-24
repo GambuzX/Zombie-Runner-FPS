@@ -292,6 +292,10 @@
       <Project>{3AB384CA-F844-4F2A-F90E-9A2ED4DC6A43}</Project>
       <Name>Zombie-Runner-FPS.Plugins</Name>
     </ProjectReference>
+    <ProjectReference Include="Zombie-Runner-FPS.csproj">
+      <Project>{F75176E6-FB53-FC69-1676-9E4E8DA142A7}</Project>
+      <Name>Zombie-Runner-FPS</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
