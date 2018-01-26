@@ -5,13 +5,17 @@ using UnityEngine;
 public class Player : MonoBehaviour {
 
     public Transform spawnPointsParent;
-    public bool reSpawn = false;
-
+    public AudioClip clearArea;
+    public Helicopter helicopter;
+    
     private Transform[] spawnPoints;
+    private AudioSource audioSource;
     private bool lastToggle = false;
+    private bool reSpawn = false;
 
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         spawnPoints = spawnPointsParent.GetComponentsInChildren<Transform>();
     }
 
@@ -31,5 +35,15 @@ public class Player : MonoBehaviour {
     {
         Transform spawnPoint = spawnPoints[Random.Range(1, spawnPoints.Length)];
         this.transform.position = spawnPoint.position;
+    }
+
+    void OnFindClearArea()
+    {
+        //audioSource.clip = clearArea;
+        //audioSource.Play();
+        Debug.Log("Found clear area!");
+        helicopter.Call();
+        //Deploy flares
+        //SpawnZombies
     }
 }
