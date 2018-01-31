@@ -10,15 +10,17 @@ public class LandingAreaDetector : MonoBehaviour {
 	void Update () {
         timeSinceLastTrigger += Time.deltaTime;
 
-		if (timeSinceLastTrigger >= 1 && Time.realtimeSinceStartup > 10f)
+		if (timeSinceLastTrigger >= 1 && Time.realtimeSinceStartup > 10f && !clear)
         {
             clear = true;
             SendMessageUpwards("OnFindClearArea");
         }
 	}
 
-    void OnTriggerStay()
+	void OnTriggerStay(Collider collider)
     {
-        timeSinceLastTrigger = 0f;
-    }
+		if (collider.tag != "Player") {
+			timeSinceLastTrigger = 0f;
+		}
+	}
 }

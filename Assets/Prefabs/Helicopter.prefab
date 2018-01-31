@@ -72,8 +72,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1243283454221866}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 956.5, y: 66.76, z: 535.4}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -565.4276, y: 688.958, z: -9552.179}
   m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_Children:
   - {fileID: 4811360514785428}
@@ -254,11 +254,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 0
+  m_audioClip: {fileID: 8300000, guid: f0cd38cae6a934ec897e7025d66eef90, type: 3}
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -294,7 +294,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 2
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -353,5 +353,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e14d7214c3af1024a896754d9f8cac4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  callSound: {fileID: 8300000, guid: 1df602bb9b38dfe488ace657e5cc8b57, type: 3}
   heliSound: {fileID: 8300000, guid: f0cd38cae6a934ec897e7025d66eef90, type: 3}
