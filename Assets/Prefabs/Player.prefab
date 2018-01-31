@@ -52,7 +52,7 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &1135447055526022
 GameObject:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
@@ -106,9 +106,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 4835515436628376}
   m_Father: {fileID: 4857756523639680}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4835515436628376
 Transform:
@@ -116,12 +117,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1135447055526022}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.3, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.300003, z: 0}
   m_LocalScale: {x: 40, y: 1, z: 40}
   m_Children: []
-  m_Father: {fileID: 4857756523639680}
-  m_RootOrder: 1
+  m_Father: {fileID: 4492897512817966}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4857756523639680
 Transform:
@@ -134,7 +135,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4062265127427486}
-  - {fileID: 4835515436628376}
   - {fileID: 4492897512817966}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -380,8 +380,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3750adeedbb994b4bb7b48a00b12348e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  whereAmI: {fileID: 8300000, guid: 67e509702b75fe44781a0a8f76240a01, type: 3}
-  clearArea: {fileID: 8300000, guid: 9f7880886ad0b9941968c1245d4a0960, type: 3}
+  whereAmI: {fileID: 8300000, guid: 30d51f026da97e14491dc9eb6cf1d1a6, type: 3}
+  clearArea: {fileID: 8300000, guid: 549740a6da67e69438f84d9cc0e30330, type: 3}
 --- !u!114 &114222491253387406
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -406,7 +406,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPointsParent: {fileID: 0}
-  helicopter: {fileID: 0}
 --- !u!114 &114601372855429232
 MonoBehaviour:
   m_ObjectHideFlags: 1

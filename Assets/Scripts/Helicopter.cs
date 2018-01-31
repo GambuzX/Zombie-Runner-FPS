@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class Helicopter : MonoBehaviour {
 
-    public AudioClip heliSound;
-
     private bool called = false;
     private Rigidbody rigidbody;
 
@@ -17,7 +15,6 @@ public class Helicopter : MonoBehaviour {
     {
         if (!called)
         {
-			SendMessageUpwards ("CallHelicopter");
             called = true;
             rigidbody.velocity = new Vector3(0f, 0f, 50f);
         }
