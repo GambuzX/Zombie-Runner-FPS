@@ -5,18 +5,28 @@ using UnityEngine;
 public class Player : MonoBehaviour {
 
     public Transform spawnPointsParent;
-    public AudioClip clearArea;
+    public AudioClip whereAmI, clearArea;
     public Helicopter helicopter;
     
     private Transform[] spawnPoints;
-    private AudioSource audioSource;
+    private AudioSource innerVoice;
     private bool lastToggle = false;
     private bool reSpawn = false;
+	private bool foundClearArea = false;
 
     void Start()
     {
-        audioSource = GetComponent<AudioSource>();
         spawnPoints = spawnPointsParent.GetComponentsInChildren<Transform>();
+
+		AudioSource[] audioSources = GetComponents<AudioSource> ();
+		foreach (AudioSource audioSource in audioSources) {
+			if (audioSource.priority == 1) {
+				innerVoice = audioSource;
+			}
+		}
+
+		innerVoice.clip = whereAmI;
+		innerVoice.Play ();
     }
 
     private void Update()
@@ -39,11 +49,14 @@ public class Player : MonoBehaviour {
 
     void OnFindClearArea()
     {
-        //audioSource.clip = clearArea;
-        //audioSource.Play();
-        Debug.Log("Found clear area!");
-        helicopter.Call();
-        //Deploy flares
-        //SpawnZombies
+		if (!foundClearArea) { 
+			innerVoice.clip = clearArea;
+	        innerVoice.Play();
+			foundClearArea = true;
+	        Debug.Log("Found clear area!");
+			helicopter.Invoke ("Call", clearArea.length + 1);
+	        //Deploy flares
+	        //SpawnZombies
+		}
     }
 }

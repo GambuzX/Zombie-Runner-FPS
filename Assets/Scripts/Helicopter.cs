@@ -28,7 +28,7 @@ public class Helicopter : MonoBehaviour {
 
     public void Call()
     {
-        if (Input.GetButtonDown("CallHeli") && !called)
+        if (!called)
         {
             audioSource.clip = callSound;
             audioSource.Play();

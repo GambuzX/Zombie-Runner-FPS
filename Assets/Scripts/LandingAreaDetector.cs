@@ -10,7 +10,7 @@ public class LandingAreaDetector : MonoBehaviour {
 	void Update () {
         timeSinceLastTrigger += Time.deltaTime;
 
-        if (timeSinceLastTrigger >= 1)
+		if (timeSinceLastTrigger >= 1 && Time.realtimeSinceStartup > 10f)
         {
             clear = true;
             SendMessageUpwards("OnFindClearArea");
