@@ -21,6 +21,6 @@ public class LandingAreaDetector : MonoBehaviour {
     {
 		if (collider.tag != "Player") {
 			timeSinceLastTrigger = 0f;
-		}
+		}	
 	}
 }

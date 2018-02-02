@@ -655,7 +655,7 @@ TerrainCollider:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1313591981}
-  m_Material: {fileID: 13400000, guid: c2815a7ab32e42c4bb42f59caacb8ec1, type: 2}
+  m_Material: {fileID: 0}
   m_Enabled: 1
   m_TerrainData: {fileID: 15600000, guid: e11537b3069d65a4ea109c7f7bc9324d, type: 2}
   m_EnableTreeColliders: 1
@@ -844,6 +844,42 @@ Prefab:
       propertyPath: spawnPointsParent
       value: 
       objectReference: {fileID: 1932756438}
+    - target: {fileID: 4835515436628376, guid: f3eec75012251374fb959940c6e12d49, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 4835515436628376, guid: f3eec75012251374fb959940c6e12d49, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 65760458770910920, guid: f3eec75012251374fb959940c6e12d49,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 65760458770910920, guid: f3eec75012251374fb959940c6e12d49,
+        type: 2}
+      propertyPath: m_Size.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 65760458770910920, guid: f3eec75012251374fb959940c6e12d49,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 65760458770910920, guid: f3eec75012251374fb959940c6e12d49,
+        type: 2}
+      propertyPath: m_Center.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4835515436628376, guid: f3eec75012251374fb959940c6e12d49, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4835515436628376, guid: f3eec75012251374fb959940c6e12d49, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 16
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f3eec75012251374fb959940c6e12d49, type: 2}
   m_IsPrefabParent: 0
