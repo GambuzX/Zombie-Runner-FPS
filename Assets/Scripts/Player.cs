@@ -5,6 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour {
 
     public Transform spawnPointsParent;
+	public GameObject landingAreaPrefab;
     
     private Transform[] spawnPoints;
     private bool lastRespawnToggle = false;
@@ -41,12 +42,11 @@ public class Player : MonoBehaviour {
 		if (!foundClearArea) { 
 			foundClearArea = true;
 			Invoke ("DropFlare", 3f);
-	        //Deploy flares
 	        //SpawnZombies
 		}
     }
 
 	void DropFlare() {
-		//Do stuff
+		Instantiate (landingAreaPrefab, transform.position, transform.rotation);
 	}
 }

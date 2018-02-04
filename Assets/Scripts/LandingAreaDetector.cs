@@ -20,7 +20,7 @@ public class LandingAreaDetector : MonoBehaviour {
 	void OnTriggerStay(Collider collider)
     {
 		if (collider.tag != "Player") {
-			timeSinceLastTrigger = 0f;
+		timeSinceLastTrigger = 0f;
 		}	
 	}
 }
