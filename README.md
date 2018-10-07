@@ -12,5 +12,4 @@ The objective is to find a way to get out safely :runner:
 * C#
 * Unity
 
-:warning: It is still a work in progress with a lot to do and improve. Doesn't have zombies or guns yet.
-Can and may pick up this later :construction:
+:warning: It is still a work in progress with a lot to do and improve. Doesn't have zombies or guns yet. May pick up this later :construction:
