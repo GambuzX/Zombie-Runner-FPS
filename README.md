@@ -10,5 +10,3 @@ The objective is to find a way to get out safely :runner:
 
 :warning: It is still a work in progress with a lot to do and improve. Doesn't have zombies or guns yet.
 Can and may pick up this later :construction:
-
-#### Download the zip file to play!
